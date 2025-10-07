@@ -8,7 +8,7 @@ import ProductContext from "@/context/ProductContext"
 
 export const Metadata = {
   title: "AleixsStore",
-  description: "A super cool website for customers,Welcome",
+  description: "A super cool website for programmers and productivity friends,Welcome",
 };
 
 export default function RootLayout({ children }) {
