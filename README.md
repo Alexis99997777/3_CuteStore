@@ -1,6 +1,13 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+website : <b>https://main.d3qm9b2kfawktn.amplifyapp.com/</b>
 
-Depoly on AWS: https://main.d3qm9b2kfawktn.amplifyapp.com/
+🌟Frontend:
+
+🌟Backend:
+
+🌟Depoly on AWS: 配置环境变量，在aws amplify进行全栈网站部署。
+
+https://main.d3qm9b2kfawktn.amplifyapp.com/
 
 ## Getting Started
 
