@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-website : <b>https://main.d3qm9b2kfawktn.amplifyapp.com/</b>
+<div>
+  website : <b>https://main.d3qm9b2kfawktn.amplifyapp.com/</b>
+</div>
 
 🌟Frontend:
 
