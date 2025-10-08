@@ -3,13 +3,11 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
   website : <b>https://main.d3qm9b2kfawktn.amplifyapp.com/</b>
 </div>
 
-🌟Frontend:
+Building a fully functional full stack online store, complete with product listings, shopping cart, and secure Stripe payments.
 
-🌟Backend:
-
-🌟Depoly on AWS: 配置环境变量，在aws amplify进行全栈网站部署。
-
-https://main.d3qm9b2kfawktn.amplifyapp.com/
+🌟Frontend:：Next.js for lightning-fast performance
+🌟Backend：Stripe.js for payments & checkout
+🌟Delopyment：Deployed on AWS Amplify for a live demo
 
 ## Getting Started
 
