@@ -1,7 +1,7 @@
 import Link from "next/link"
 import "../globals.css" 
 
-export default function NotFound() {
+export default function SuccessPage() {
     return (
         <div className="page-container">
             <h2 className="text-large">Thank you for your purchase 🎉</h2>
