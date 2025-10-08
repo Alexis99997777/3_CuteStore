@@ -4,7 +4,7 @@ import Head from "./head";
 import Link from "next/link";
 import Cart from "@/components/Cart";
 import EmailInput from "@/components/Emailinput"
-import ProductContext from "@/context/ProductContext"
+import ProductsProvider from "@/context/ProductContext"
 
 export const Metadata = {
   title: "AleixsStore",
@@ -13,7 +13,7 @@ export const Metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <ProductContext>
+    <ProductsProvider>
       <html lang="en">
         <Head />
         <body>
@@ -71,6 +71,6 @@ export default function RootLayout({ children }) {
           </div>
         </body>
       </html>
-    </ProductContext>
+    </ProductsProvider>
   );
 }
