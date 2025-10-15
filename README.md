@@ -5,11 +5,11 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 Building a fully functional Full-Stack online store, complete with product listings, shopping cart, and secure Stripe payments.
 
-🌟Frontend:：Next.js for lightning-fast performance
-🌟Backend：Stripe.js for payments & checkout
-🌟Framwork:ReactJs
-🌟Technology:Javascript, JSX, CSS, HTML
-🌟Delopyment：Deployed on AWS Amplify for a live demo
+<p>🌟Frontend:：Next.js for lightning-fast performance</p>
+<p>🌟Backend：Stripe.js for payments & checkout</p>
+<p>🌟Framwork:ReactJs</p>
+<p>🌟Technology:Javascript, JSX, CSS, HTML</p>
+<p>🌟Delopyment：Deployed on AWS Amplify for a live demo</p>
 
 🌟core function:
    
