@@ -3,13 +3,16 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
   website : <b>https://main.d3qm9b2kfawktn.amplifyapp.com/</b>
 </div>
 
-Building a fully functional full stack online store, complete with product listings, shopping cart, and secure Stripe payments.
+Building a fully functional Full-Stack online store, complete with product listings, shopping cart, and secure Stripe payments.
 
 🌟Frontend:：Next.js for lightning-fast performance
-
 🌟Backend：Stripe.js for payments & checkout
-
+🌟Framwork:ReactJs
+🌟Technology:Javascript, JSX, CSS, HTML
 🌟Delopyment：Deployed on AWS Amplify for a live demo
+
+🌟core function:
+   
 
 ## Getting Started
 
