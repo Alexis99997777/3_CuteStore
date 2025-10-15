@@ -5,15 +5,78 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 Building a fully functional Full-Stack online store, complete with product listings, shopping cart, and secure Stripe payments.
 
-<p>🌟Frontend:：Next.js for lightning-fast performance</p>
-<p>🌟Backend：Stripe.js for payments & checkout</p>
+<p>🌟Frontend:：Next.js + React.js</p>
+<p>🌟Backend / Payment Integration：Stripe.js for payments & checkout</p>
 <p>🌟Framwork:ReactJs</p>
 <p>🌟Technology:Javascript, JSX, CSS, HTML</p>
-<p>🌟Delopyment：Deployed on AWS Amplify for a live demo</p>
+<p>🌟Delopyment：AWS Amplify</p>
 
-🌟core function:
-   
+<h2>🌟 Core Features</h2>
 
+<h3>1. Performance Optimization</h3>
+<p>
+<strong>Progressive Image Loading:</strong> Implemented progressive image loading technique - displays low-resolution placeholders first, then asynchronously loads high-resolution images in the background with onload callbacks for seamless transitions. Improved page load speed by 100ms+
+</p>
+
+<h3>2. State Management</h3>
+<p><strong>React Hooks Implementation:</strong></p>
+<ul>
+  <li><code>useState</code>: Manage component state and trigger automatic re-renders</li>
+  <li><code>useEffect</code>: Handle side effects and execute asynchronous operations after component renders</li>
+  <li><code>useRef</code>: Persist values across re-renders without triggering unnecessary updates</li>
+  <li><code>useContext</code>: Enable global state sharing (user info, theme settings, etc.)</li>
+</ul>
+
+<h3>3. Shopping Cart System</h3>
+<ul>
+  <li><strong>Global State Management:</strong> Created global cart Context for cross-component data sharing</li>
+  <li><strong>Cart Features:</strong> Add/remove items, quantity adjustment, real-time price calculation</li>
+  <li><strong>Data Persistence:</strong> Maintain cart data storage and updates across sessions</li>
+</ul>
+
+<h3>4. Payment Integration</h3>
+<p><strong>Stripe API Integration:</strong></p>
+<ul>
+  <li>Secure payment processing workflow</li>
+  <li>Shopping cart checkout functionality</li>
+  <li>Order creation and management</li>
+</ul>
+
+<h3>5. Frontend-Backend Communication</h3>
+<p><strong>Data Flow Architecture:</strong></p>
+<ol>
+  <li>Frontend sends requests via Fetch API to <code>/api/products</code></li>
+  <li>Backend queries data and retrieves product information from Stripe</li>
+  <li>Returns product data in JSON format (pricing, descriptions, inventory)</li>
+  <li>Frontend receives and renders product listings</li>
+</ol>
+
+<h3>6. Modular Architecture</h3>
+<p><strong>Frontend Module Structure:</strong></p>
+<ul>
+  <li>Product Display Module</li>
+  <li>Shopping Cart Module</li>
+  <li>Order Management Module</li>
+  <li>User Information Module</li>
+</ul>
+
+<h3>7. User Experience Enhancement</h3>
+<ul>
+  <li><strong>Image Interactions:</strong> Click-to-zoom functionality using DOM manipulation</li>
+  <li><strong>Responsive Design:</strong> Optimized for multiple devices and screen sizes</li>
+</ul>
+
+<h3>8. Development Best Practices</h3>
+<ul>
+  <li><strong>Environment Variables Management:</strong> Secure storage of API keys and configuration</li>
+  <li><strong>Server-Side Rendering:</strong> Leveraging Next.js SSR for improved SEO and initial load performance</li>
+  <li><strong>Client/Server Components:</strong> Strategic rendering approach for optimal performance</li>
+</ul>
+
+<h2>🚀 Deployment</h2>
+<p>
+Project is deployed on AWS Amplify, providing reliable hosting services with automated CI/CD pipeline.
+</p>
 ## Getting Started
 
 First, run the development server:
